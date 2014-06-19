@@ -1,0 +1,166 @@
+/*
+#C2492E*
+D46049*/
+
+body {
+	margin: 0;
+}
+.main {
+	position: relative;
+	height: auto;
+	z-index: 0;
+	overflow: hidden;
+	width: 100%;
+	display: block;
+	padding: 50px 80px 90px 80px;
+	margin: 0;
+
+	background: url(images/cover.jpg) no-repeat center center; 
+	background-position-y: -60px;
+	background-size: 100%;
+	background-size: cover;
+}
+.submain {
+	position: relative;
+	height: auto;
+	z-index: 0;
+	overflow: hidden;
+	width: 100%;
+	display: block;
+	padding: 0px 100px 0px 100px;
+	margin: 0;
+}
+.sub_submain {
+	position: relative;
+	height: auto;
+	z-index: 0;
+	overflow: hidden;
+	width: 100%;
+	display: block;
+	padding: 50px 100px 0px 100px;
+	margin: 0px;
+
+}
+.new_container {
+	width: 100%;
+	display: block;
+	padding: 50px 80px 0px 80px;
+	margin: 0;
+}
+.new_page-header {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container-landing {
+	padding-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	letter-spacing: 1px;
+	border-bottom-width: 2px;
+	color:#d46650;
+}
+
+a:hover, a:focus {
+color: #999;
+text-decoration: none;
+}
+.navbar-header a {
+  color:#d46650;
+  font-size:16px;
+  font-weight: bolder;
+}
+.navbar-header {
+	padding-top: 1px;
+	padding-left: 15px;
+}
+.navbar-home {
+	background: url(images/banner.jpg) no-repeat center center; 
+}
+.navbar-home a {
+  color:#dedede;
+  font-size:14px;
+}
+.navbar-rest a {
+  color:#596B7D;
+  font-size:14px;
+}
+
+#navbar ul .active a, #navbar ul li a:hover, #navbar ul li a.active {
+  color: #d46650;
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+
+.landing .jumbotron {
+	margin:5px 0;
+	padding:120px 0px 160px 85px;
+	text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 72px;
+  color: #E9E9E9;
+  line-height: 1;
+  text-align: right;
+  padding-bottom: 15px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jumbotron h2 {
+  color: #dedede;
+  opacity: .9;
+  line-height: 1;
+  text-align: right;
+  padding-bottom: 15px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jumbotron .lead {
+  line-height: 1;
+  text-align: right;
+  padding-bottom: 15px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: -20px;
+}
+
+#about h1 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #d46650;
+}
+
+
+/*Thumbnails*/
+
+.col-md-offset-3 {
+	margin-left:25%;
+}
+.col-md-6 {
+	width:50%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+#footer{
+	background: #f8f8f8 url(images/footer.jpg) 100%;
+	padding: 15px 0px 15px 0px;	
+	margin: 0px 0px -30px 0px;
+}
+#footer p {
+	text-align: center;
+	color: #dedede;
+}
+#footer .navbar-collapse {
+		margin: 0px auto;
+		width: 490px;
+}
+#footer .navbar-collapse .navbar-nav {
+	float: none;
+	list-style: none; 
+	display: inline-block;
+}
