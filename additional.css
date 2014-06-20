@@ -14,7 +14,7 @@ body {
 	display: block;
 	padding: 50px 80px 90px 80px;
 	margin: 0;
-	background: url(images/cover.jpg) no-repeat center center; 
+	background-image: url(images/cover.jpg) no-repeat center center; 
 	background-size: 100%;
 	background-size: cover;
 }
