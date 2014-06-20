@@ -1,5 +1,7 @@
 .thumb {
-	margin-bottom: 30px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
 }
 
 .img-responsive {
