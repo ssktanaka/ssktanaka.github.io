@@ -66,6 +66,7 @@ a:hover, a:focus {
 color: #999;
 text-decoration: none;
 }
+
 .navbar-header a {
   color:#d46650;
   font-size:16px;
@@ -83,14 +84,19 @@ text-decoration: none;
   font-size:14px;
 }
 .navbar-rest a {
-  color:#596B7D;
+  color:#596B7D !important;
   font-size:14px;
 }
 
-#navbar ul .active a, #navbar ul li a:hover, #navbar ul li a.active {
-  color: #d46650;
+.navbar ul .active a, .navbar ul li a:hover, .navbar ul li a.active {
+  color: #d46650 !important;
   background-color: transparent; 
   text-decoration: none;
+}
+.logo {
+	padding-top: auto;
+	padding-bottom: 12px;
+	float: left !important;
 }
 
 
@@ -150,9 +156,9 @@ text-decoration: none;
 	background: #f8f8f8 url(images/footer.jpg) 100%;
 	padding: 15px 0px 15px 0px;	
 	margin: 0px 0px -30px 0px;
-}
-#footer p {
 	text-align: center;
+}
+#footer p  {
 	color: #dedede;
 }
 #footer .navbar-collapse {
