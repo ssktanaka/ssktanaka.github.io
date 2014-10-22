@@ -8,6 +8,8 @@
     <meta name="author" content="Sanette Tanaka">
     <meta name="keywords" content="Sanette Tanaka, journalist, portfolio, Wall Street Journal, Mitchell Scholar, Dublin, Ireland, writing, freelance, freelancer, data journalism, clips, real estate, Mansion">
     <meta name="google-site-verification" content="Sanette Tanaka" />
+
+
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>Sanette Tanaka</title>
@@ -27,17 +29,24 @@
     <div class="landing">
        <div class="navbar navbar-default navbar alt" role="navigation">
          <div class="container-landing">
-
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-          </div>
           
-          <div class="navbar-collapse collapse in" class="navbar" style="height:auto;">
+  <div class="container-fluid">
+
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./">HOME</a></li>
+              <li><a href="#about" class="scroll-link" data-id="about">ABOUT</a></li>
+              <li><a href="work.html">WORK</a></li>
+              <li><a href="mailto:sanette.tanaka@gmail.com?subject=Hello">CONTACT</a></li>
+              <li><a href="blog.html">BLOG</a></li>
+          </ul>
+      </button>
+      
+    </div>
+
+
+          <div class="navbar-collapse collapse in hidden-xs" class="navbar" style="height:auto;">
             <ul class="nav navbar-nav navbar-right navbar-home">
               <li class="active"><a href="./">HOME</a></li>
               <li><a href="#about" class="scroll-link" data-id="about">ABOUT</a></li>
@@ -47,9 +56,13 @@
             </ul>
           </div><!--/.nav-collapse -->
 
+        </div><!-- /.container-fluid -->
+
+
+
            <div class="jumbotron banner">
-            <h1>Hi, I'm Sanette</h1>
-            <h2>I'm a writer based in Dublin, Ireland  
+            <h1 class="hidden-xs">Hi, I'm Sanette</h1>
+            <h2 class="hidden-xs">I'm a writer based in Dublin, Ireland  
             </h2>
           </div><!--/.jumbotron -->
          
@@ -65,8 +78,9 @@
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
             <div class="page-header">
-              <h1>Nice to meet you</h1>
-              <p class="lead">
+              <h1 class="middle">Nice to meet you</h1>
+              <br/>
+              <p class="lead middle">
               I am a news and tech buff, interested in data journalism, graphics and everything digital. I am a reporter by trade, and plan to transition into the online product side of media. I want to create new templates and mediums to deliver content so information can better be presented online. In essence, I want to transform how people interact with and consume media.
               </p>
               <p>
@@ -78,7 +92,8 @@
              <p>
              I'm a storyteller at heart. I became a journalist to tell stories that matter. By fundamentally changing the face of news, I hope to ensure that those stories continue to get told.                 
             </p>
-            <p class="lead">Feel free to <a href="mailto:sanette.tanaka@gmail.com?subject=Hello">contact me</a> with freelance assignments and story ideas, or simply to say hello.
+            <br/>
+            <p class="lead middle">Feel free to <a href="mailto:sanette.tanaka@gmail.com?subject=Hello">contact me</a> with freelance assignments and story ideas, or simply to say hello.
             </p>   
            </div><!-- </div>/.about -->
        </div><!-- </div>/.col -->
@@ -120,6 +135,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="jquery.colorbox.js"></script>
+    <script src="bootstrap.js"></script>
+
     <script type="text/javascript" src="index.js"></script>
 
   </body>

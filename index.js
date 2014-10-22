@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
 	// navigation click actions	
 	$('.scroll-link').on('click', function(event){
