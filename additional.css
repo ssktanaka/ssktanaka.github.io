@@ -40,10 +40,12 @@ body {
 	width: 100%;
 	display: block;
 	margin-left: 0;
+	padding: 0% 8% 0% 8%;
+
 
 }
 .submain-large {
-	padding: 0px 100px 0px 100px;
+	padding: 0% 8% 0% 8%;
 }
 
 
@@ -137,6 +139,7 @@ text-decoration: none;
   line-height: 1;
   text-align: right;
   padding-bottom: 15px;
+  padding-right: 15px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .jumbotron h2 {
@@ -145,6 +148,7 @@ text-decoration: none;
   line-height: 1;
   text-align: right;
   padding-bottom: 15px;
+   padding-right: 15px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .jumbotron .lead {
