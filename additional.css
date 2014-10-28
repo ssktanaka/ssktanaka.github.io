@@ -40,8 +40,10 @@ body {
 	width: 100%;
 	display: block;
 	margin-left: 0;
-	padding: 0px 100px 0px 100px;
 
+}
+.submain-large {
+	padding: 0px 100px 0px 100px;
 }
 
 
@@ -101,6 +103,7 @@ text-decoration: none;
 .navbar-home {
 	background: url(images/banner.jpg) no-repeat center center; 
 }
+
 .navbar-home a {
   color:#dedede;
   font-size:14px;
