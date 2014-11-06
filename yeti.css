@@ -287,7 +287,7 @@ html {
 }
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #222222;
   background-color: #ffffff;
@@ -3468,7 +3468,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px 10px 25px;
+  padding: 10px 15px 10px 15px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
